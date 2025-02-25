@@ -1,0 +1,31 @@
+{
+  "name": "typescript-course-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agustina-caramel/typescript-course-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agustina-caramel/typescript-course-node/issues"
+  },
+  "homepage": "https://github.com/agustina-caramel/typescript-course-node#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.5",
+    "lite-server": "^2.6.1",
+    "nodemon": "^3.1.9"
+  }
+}
